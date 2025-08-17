@@ -9,7 +9,7 @@ const featuredProducts = [
     price: "PKR 199",
     rating: 4,
   },
-  // Add more products as needed
+ 
 ];
 
 const brands = [
@@ -22,7 +22,7 @@ const brands = [
 export default function Home() {
   return (
     <div className="bg-white min-h-screen">
-      {/* Hero Section */}
+    
       <div className="container mx-auto px-4 py-12">
         <div className="flex flex-col md:flex-row items-center gap-8">
           <div className="md:w-1/2 animate-fadeInLeft">
@@ -50,7 +50,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Categories */}
+  
       <div className="py-8 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row gap-6 justify-center">
@@ -76,7 +76,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Featured Products */}
+
       <div className="container mx-auto px-4 py-12">
         <h2 className="text-2xl font-bold mb-6 text-gray-800">Featured Product</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
@@ -113,7 +113,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Offer Section */}
+
       <div className="bg-green-50 py-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-8">
@@ -182,7 +182,7 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Animations */}
+      
       <style>
         {`
           @keyframes fadeInLeft {
@@ -204,4 +204,5 @@ export default function Home() {
       </style>
     </div>
   );
+
 }
