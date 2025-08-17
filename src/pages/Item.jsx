@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-// Simple product data with different images
+
 const products = [
   {
     id: 1,
@@ -73,4 +73,5 @@ export default function Item() {
       </div>
     </div>
   );
+
 }
