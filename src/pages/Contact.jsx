@@ -10,14 +10,14 @@ export default function Contact() {
   } = useForm();
 
   const onSubmit = (data) => {
-    // Handle form submission (e.g., send to API)
+
     reset();
   };
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white-100 to-white-200 px-2 py-8">
       <div className="bg-gray-100 rounded-xl shadow-lg p-6 md:p-10 w-full max-w-5xl flex flex-col md:flex-row gap-10">
-        {/* Left: Contact Form */}
+       
         <div className="flex-1 min-w-[280px]">
           <h1 className="text-2xl md:text-3xl font-bold mb-2 text-black-700">
             Contact Us
@@ -80,7 +80,7 @@ export default function Contact() {
             )}
           </form>
         </div>
-        {/* Right: Contact Info */}
+      
         <div className="flex-1 min-w-[220px]">
           <h2 className="text-xl font-semibold mb-4 text-black-700">
             Contact Information
@@ -125,3 +125,4 @@ export default function Contact() {
     </div>
   );
 }
+
