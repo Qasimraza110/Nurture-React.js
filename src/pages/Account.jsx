@@ -15,12 +15,12 @@ const Account = () => {
   } = useForm();
 
   const onLogin = (data) => {
-    // handle login
+  
     alert(`Login Success!\nUsername: ${data.username}`);
   };
 
   const onRegister = (data) => {
-    // handle register
+ 
     alert(`Register Success!\nUsername: ${data.username}\nEmail: ${data.email}`);
   };
 
@@ -57,7 +57,6 @@ const Account = () => {
               Register
             </button>
           </div>
-          {/* Login Form */}
           <form
             className={`space-y-5 transition-all duration-500 ${
               tab === "login" ? "block animate-slide-in" : "hidden"
@@ -94,7 +93,7 @@ const Account = () => {
               </a>
             </div>
           </form>
-          {/* Register Form */}
+        
           <form
             className={`space-y-5 transition-all duration-500 ${
               tab === "register" ? "block animate-slide-in" : "hidden"
@@ -143,7 +142,7 @@ const Account = () => {
           </form>
         </div>
       </div>
-      {/* Animations */}
+     
       <style>
         {`
           .animate-fade-in {
@@ -165,4 +164,5 @@ const Account = () => {
     </div>
   );
 };
+
 export default Account;
