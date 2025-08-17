@@ -102,7 +102,7 @@ export default function Cart() {
             </tbody>
           </table>
         </div>
-        {/* Total Section */}
+    
         <div className="mt-8 flex flex-col items-end animate-slide-in">
           <table className="w-full max-w-xs text-right">
             <tbody>
@@ -128,7 +128,7 @@ export default function Cart() {
             Proceed to Pay
           </button>
         </div>
-      {/* Animations */}
+
       <style>
         {`
           .animate-fade-in {
@@ -151,4 +151,5 @@ export default function Cart() {
     </div>
 
   );
+
 }
