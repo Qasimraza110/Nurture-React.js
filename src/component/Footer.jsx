@@ -4,7 +4,7 @@ const Footer = () => (
   <footer className="bg-black text-white py-10">
     <div className="max-w-7xl mx-auto px-4">
       <div className="flex flex-wrap gap-8 justify-between">
-        {/* App Download */}
+        
         <div className="flex-1 min-w-[220px]">
           <h3 className="text-lg font-semibold mb-2">Download Our App</h3>
           <p className="mb-4 text-sm">Download App for Android and IOS mobile phone.</p>
@@ -21,7 +21,7 @@ const Footer = () => (
             />
           </div>
         </div>
-        {/* Logo & Purpose */}
+      
         <div className="flex-1 min-w-[220px] flex flex-col items-start">
           <img
             src="/photo-output.PNG"
@@ -32,7 +32,7 @@ const Footer = () => (
             Our purpose is to make the world enjoy the Greenery and Nature and make the soul feel pleasant.
           </p>
         </div>
-        {/* Useful Links */}
+       
         <div className="flex-1 min-w-[180px]">
           <h3 className="text-lg font-semibold mb-2">Useful Links</h3>
           <ul className="space-y-2 text-sm">
@@ -42,7 +42,7 @@ const Footer = () => (
             <li className="hover:text-green-400 cursor-pointer">Join Affiliate</li>
           </ul>
         </div>
-        {/* Social Links */}
+    
         <div className="flex-1 min-w-[180px]">
           <h3 className="text-lg font-semibold mb-2">Follow Us</h3>
           <ul className="space-y-2 text-sm">
@@ -60,5 +60,6 @@ const Footer = () => (
     </div>
   </footer>
 );
+
 
 export default Footer;
