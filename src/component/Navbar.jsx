@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <header className="bg-white w-full shadow-md">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
-        {/* Logo */}
+    
         <div className="logo">
           <NavLink to="/">
             <img
@@ -19,7 +19,7 @@ const Navbar = () => {
             />
           </NavLink>
         </div>
-        {/* Desktop Menu */}
+       
        <nav className="hidden md:flex items-center space-x-8">
           <ul className="flex items-center space-x-6 text-black font-medium">
             <li>
@@ -76,7 +76,7 @@ const Navbar = () => {
             />
           </NavLink>
         </nav>
-        {/* Mobile Menu Icon */}
+        {/* Mobile Menu  */}
         <button
           className="md:hidden focus:outline-none"
           onClick={() => setOpen(!open)}
@@ -160,5 +160,6 @@ const Navbar = () => {
     </header>
   );
 };
+
 
 export default Navbar;
