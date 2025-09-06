@@ -4,7 +4,7 @@ Nurture is a modern, responsive frontend UI built using React, Tailwind CSS, and
 It is designed as an e-commerce platform for plant and flower products, providing users with a smooth, interactive, and visually appealing shopping experience.
 
 🚀 Features
-
+                  
 ⚛️ React Components – Reusable and dynamic UI for fast updates.
 
 🎨 Tailwind CSS botstrap – Utility-first, fully responsive, and mobile-friendly design.
