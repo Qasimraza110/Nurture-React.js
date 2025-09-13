@@ -1,6 +1,6 @@
 🌱 Nurture – Plant & Flower E-Commerce UI
 
-Nurture is a modern, responsive frontend UI built using React, Tailwind CSS, and React Hook Form.
+Nurture is a modern, responsive frontend UI built using React, Tailwind CSS, and React Hook Form. 
 It is designed as an e-commerce platform for plant and flower products, providing users with a smooth, interactive, and visually appealing shopping experience. 
 
 🚀 Features
