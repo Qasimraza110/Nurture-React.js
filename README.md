@@ -7,7 +7,7 @@ It is designed as an e-commerce platform for plant and flower products, providin
                   
 ⚛️ React Components – Reusable and dynamic UI for fast updates.
 
-🎨 Tailwind CSS botstrap – Utility-first, fully responsive, and mobile-friendly design.
+🎨 Tailwind CSS botstrap – Utility-first, fully responsive, and mobile-friendly design. 
 
 📝 React Hook Form – Simple form handling with validation & error messages (login & registration).
 
