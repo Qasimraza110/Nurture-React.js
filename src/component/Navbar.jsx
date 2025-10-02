@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   const [open, setOpen] = useState(false);
 
-  return (
+  return ( 
     <header className="bg-white w-full shadow-md">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
     
@@ -163,3 +163,4 @@ const Navbar = () => {
 
 
 export default Navbar;
+
