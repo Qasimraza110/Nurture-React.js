@@ -11,7 +11,7 @@ import Cart from './pages/Cart';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/", 
     element: (
       <>
         <Navbar />
