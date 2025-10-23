@@ -6,7 +6,7 @@ const featuredProducts = [
   {
     img: "/pexels-photo-736230.webp",
     name: "Pink Rose Flower",
-    price: "PKR 199",
+    price: "PKR 199", 
     rating: 4,
   },
  
@@ -206,3 +206,4 @@ export default function Home() {
   );
 
 }
+
