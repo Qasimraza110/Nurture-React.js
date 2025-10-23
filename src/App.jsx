@@ -7,7 +7,7 @@ import About from './pages/About';
 import Item from './pages/Item';
 import Contact from './pages/Contact'; 
 import Account from './pages/Account';
-import Cart from './pages/Cart';
+import Cart from './pages/Cart'; 
 
 const router = createBrowserRouter([
   {
