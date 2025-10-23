@@ -5,7 +5,7 @@ export default function Contact() {
   const {
     register,
     handleSubmit,
-    reset,
+    reset, 
     formState: { errors, isSubmitSuccessful },
   } = useForm();
 
@@ -125,4 +125,5 @@ export default function Contact() {
     </div>
   );
 }
+
 
