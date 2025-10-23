@@ -7,7 +7,7 @@ const Account = () => {
     register: loginRegister,
     handleSubmit: handleLogin,
     formState: { errors: loginErrors },
-  } = useForm();
+  } = useForm(); 
   const {
     register: regRegister,
     handleSubmit: handleRegister,
@@ -166,3 +166,4 @@ const Account = () => {
 };
 
 export default Account;
+
