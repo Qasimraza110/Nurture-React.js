@@ -5,7 +5,7 @@ export default function About() {
     <div className="bg-white min-h-[60vh] py-8 animate-fade-in">
       <div className="container mx-auto px-4">
         <div className="flex flex-col-reverse lg:flex-row gap-8 items-center lg:items-start">
-       
+        
           <div className="flex-1 min-w-[280px] bg-white rounded-xl shadow-md p-5 sm:p-8 mb-6 lg:mb-0 animate-slide-up">
             <h1 className="text-3xl sm:text-4xl font-bold mb-4">About Nurture</h1>
             <p className="mb-6 text-gray-700 text-base sm:text-lg">
@@ -68,3 +68,4 @@ export default function About() {
   );
 
 }
+
