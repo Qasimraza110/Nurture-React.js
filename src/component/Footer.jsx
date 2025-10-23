@@ -8,7 +8,7 @@ const Footer = () => (
         <div className="flex-1 min-w-[220px]">
           <h3 className="text-lg font-semibold mb-2">Download Our App</h3> 
           <p className="mb-4 text-sm">Download App for Android and IOS mobile phone.</p>
-          <div className="flex gap-3">
+          <div className="flex gap-3">     
             <img
               src="/f1d51c541ed356d3e066d5ef2744c1ca.png"
               alt="App Store"
@@ -63,5 +63,6 @@ const Footer = () => (
 
 
 export default Footer;
+
 
 
