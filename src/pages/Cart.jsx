@@ -9,7 +9,7 @@ const initialCart = [
     quantity: 1,
   },
   {
-    id: 2,
+    id: 2, 
     name: "The pink rose flower",
     price: 199.9,
     image: "/pexels-sura-1023767795-31673478.jpg",
@@ -153,3 +153,4 @@ export default function Cart() {
   );
 
 }
+
