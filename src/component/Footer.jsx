@@ -5,7 +5,7 @@ const Footer = () => (
     <div className="max-w-7xl mx-auto px-4">
       <div className="flex flex-wrap gap-8 justify-between">
         
-        <div className="flex-1 min-w-[220px]">
+        <div className="flex-1 min-w-[220px]">  
           <h3 className="text-lg font-semibold mb-2">Download Our App</h3> 
           <p className="mb-4 text-sm">Download App for Android and IOS mobile phone.</p>
           <div className="flex gap-3">     
@@ -63,6 +63,7 @@ const Footer = () => (
 
 
 export default Footer;
+
 
 
 
