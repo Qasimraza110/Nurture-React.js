@@ -1,6 +1,6 @@
 import React from "react";
 
-const Footer = () => (
+const Footer = () => ( 
   <footer className="bg-black text-white py-10">
     <div className="max-w-7xl mx-auto px-4">
       <div className="flex flex-wrap gap-8 justify-between">
@@ -63,6 +63,7 @@ const Footer = () => (
 
 
 export default Footer;
+
 
 
 
