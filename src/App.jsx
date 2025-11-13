@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 import Account from './pages/Account';
 import Cart from './pages/Cart'; 
 
-const router = createBrowserRouter([
+const router = createBrowserRouter(
   {
     path: "/", 
     element: (
